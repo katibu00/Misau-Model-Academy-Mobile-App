@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/top_share"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/top_portal"
+        android:title="Portal" />
+
+    <item
+        android:id="@+id/top_about"
+        android:title="About"
+       />
+    <item
+        android:id="@+id/top_exit"
+        android:title="Exit" />
+
+
+</menu>

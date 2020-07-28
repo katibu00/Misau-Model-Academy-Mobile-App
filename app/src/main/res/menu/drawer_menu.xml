@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_chat"
+            android:title="Forum" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_schedule"
+            android:title="Events" />
+
+    </group>
+
+    <item android:title="Login">
+        <menu>
+            <item
+                android:id="@+id/nav_teacher"
+                android:icon="@drawable/ic_class"
+                android:title="Teacher" />
+            <item
+                android:id="@+id/nav_parent"
+                android:icon="@drawable/ic_couple"
+                android:title="Parent" />
+            <item
+                android:id="@+id/nav_student"
+                android:icon="@drawable/ic_study"
+                android:title="Student" />
+
+        </menu>
+    </item>
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
